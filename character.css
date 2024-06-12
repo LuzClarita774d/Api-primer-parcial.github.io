@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Paytone+One&display=swap');
+
+
+body {
+    background-color: #2C2C2C;
+    font-family: "Epilogue", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fffefe;
+}
+
+*{
+    font-family: "Epilogue", sans-serif;
+    text-decoration: none;
+    color: #fffefe;
+    cursor: pointer;
+}
+a:hover{
+    color:#f5a42a ;
+}
+
+p:hover{
+    color:#f5a42a ;
+}
+h1:hover{
+    color:#f5a42a ;
+}
+#characterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 50px;
+
+}
+#characterContainer img  {
+    border-radius: 12px 13px 0 0;
+}
+#character{
+    border-radius: 12px 13px 0 0;
+    background-color:#444;
+    border-radius:  12px 12px 12px 12px ;
+    box-shadow: 0 8px 27px rgba(28, 26, 26, 0.2);
+}
+
+
+
+header {
+    background-color: #2C2C2C;
+}
+.menu {
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 17px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.detail h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.detail h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.detail p {
+    font-size: 16px;
+    margin: 5px 0;
+    margin-bottom: 8px;
+}
+
